@@ -11,7 +11,7 @@ An app that lets users find roommates based on compatibility on a college campus
 
 ### App Evaluation
 - **Category:** Social / Utility
-- **Mobile:** Initially, functionality would be limited to mobile devices. However, functionality could be expanded to other devices.
+- **Mobile:** Initially, functionality would be limited to mobile devices. However, application could be expanded to other devices in future updates.
 - **Story:** Helps Penn State freshmen find dormmates.
 - **Market:** Intended for college students.
 - **Scope:** Upon first signing up, users fill out their preferences regarding potential dormmates, they will then be able to connect with other people looking for dormmates.
@@ -42,14 +42,17 @@ An app that lets users find roommates based on compatibility on a college campus
 
 ### 2. Screen Archetypes
 
-* Login 
 * Register - User signs up or logs into their account
    * User has the option to stay signed in
-* Messaging Screen - Chat for users to communicate (direct 1-on-1)
-  * If compatibility quiz is implemented, users can sort potential dorm mates via compatibility metrics(optionally, they can only see other users who they have high compatibility with)
+* Stream - User can scroll through potential roommates
+   * Detail - User can click on a tile to view detail about a potential roommate (another user)
+   * Requests screen - User sees a list of users who want to connect (get access to contact information)
+* Map view - User sees a map of their University (Penn State) with in-campus housing options highlighted 
+* (Optional) Messaging Screen - Chat for users to communicate (direct 1-on-1)
 * Profile Screen 
-   * Allows user to upload a photo and fill in information that is interesting to them and others
-   * User can preview their profile as it will appear to other users before finalizing changes
+   * User can view their profile.
+   * Allows user to edit their profile or retake the compatibility quiz. 
+   * Allows user to log out or delete profile.
 
 
 ### 3. Navigation
@@ -59,12 +62,10 @@ An app that lets users find roommates based on compatibility on a college campus
 * Map
 * Home (View potential dormmates)
 * Profile
-* Chat
-
+* Requests
 
 Optional:
-* Music/Encounter Queue
-* Discover (Top Choices)
+* Chat
 
 **Flow Navigation** (Screen to Screen)
 * Forced Log-in -> Account creation if no log in is available
