@@ -74,7 +74,7 @@ Optional:
 * Settings -> Toggle settings
 
 ## Wireframes
-
+<img src="https://github.com/Dormify/Dormie/blob/main/dormiewip.png">
 
 ### [BONUS] Digital Wireframes & Mockups
 
