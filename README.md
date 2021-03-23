@@ -12,7 +12,7 @@ An app that lets users find roommates based on compatibility on a college campus
 ### App Evaluation
 - **Category:** Social / Utility
 - **Mobile:** Initially, functionality would be limited to mobile devices. However, application could be expanded to other devices in future updates.
-- **Story:** Helps Penn State freshmen find dormmates.
+- **Story:** Helps Penn State freshmen find dormmates. (up-scalable for other universities too)
 - **Market:** Intended for college students.
 - **Scope:** Upon first signing up, users fill out their preferences regarding potential dormmates, they will then be able to connect with other people looking for dormmates.
 
@@ -61,23 +61,25 @@ An app that lets users find roommates based on compatibility on a college campus
 
 * Map
 * Home (View potential dormmates)
-* Profile
 * Requests
+* Profile-Settings
 
 Optional:
-* Chat
+* Chat (or ChatBot)
 
 **Flow Navigation** (Screen to Screen)
 * Forced Log-in -> Account creation if no log in is available
-* Music Selection (Or Queue if Optional) -> Jumps to Chat
-* Profile -> Text field to be modified. 
-* Settings -> Toggle settings
+* Map -> open mapview
+* Home -> Find dormies
+* Requests -> To check dormie requets
+* Profile-Settings -> Toggle profile edit
 
 ## Wireframes
+instead of penn and paper, we digitally collaborated and used paint to draw, equivalent to digital-handwritten work
 <img src="https://github.com/Dormify/Dormie/blob/main/dormiewip.png">
 
 ### [BONUS] Digital Wireframes & Mockups
-
+<img src="https://github.com/Dormify/Dormie/blob/main/figma%20dormie%20mockup.png">
 
 ### [BONUS] Interactive Prototype
-
+<img src="dorimemockup.gif">
