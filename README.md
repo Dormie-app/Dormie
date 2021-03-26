@@ -110,12 +110,11 @@ ObjectID | String |  Unique ID for the field
 |... |... |...
 
 
-
-
 **Network Models**
 
 *Login Screen
  (Read/Get) Query the user object
+```
  ParseUser.logInInBackground(username, password, new LogInCallback() {
   public void done(ParseUser user, ParseException e) {
     if (user != null) {
@@ -128,9 +127,11 @@ ObjectID | String |  Unique ID for the field
     }
   }
 });
+```
 
  (Update) Create user on signup
  
+```
  user.signUpInBackground(new SignUpCallback() {
   public void done(ParseException e) {
     if (e == null) {
@@ -143,11 +144,13 @@ ObjectID | String |  Unique ID for the field
     }
   }
 });
+```
  
 *Home Screen
 Read from users database
 (Read/Get) Query users
 
+```
 ParseQuery<ParseUser> query = ParseUser.getQuery();
 query.findInBackground(new FindCallback<ParseUser>() {
   public void done(List<ParseUser> objects, ParseException e) {
@@ -161,10 +164,12 @@ query.findInBackground(new FindCallback<ParseUser>() {
     }
   }
 });
+```
 
 *Map Screen
 Read/Get from Google Maps API
 
+```
 private MapView mapView;
  
 @Override
@@ -194,6 +199,7 @@ public void onMapReady(@NonNull MapboxMap mapboxMap) {
 }
 });
 }
+```
 
 
 
