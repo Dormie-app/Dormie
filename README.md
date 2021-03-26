@@ -97,6 +97,7 @@ User
 | displayPic|File   | Profile pic (Image) |
 | aboutMe | String | About me displayed on profile
 | Preferences| Pointer | Points to User's row in preference database
+| Active | Boolean | Shows whether the user is active or not
 
 
 Preferences
@@ -107,3 +108,110 @@ ObjectID | String |  Unique ID for the field
 | q2 | int | Stores user's answer to preference question 2
 | q3 | int | Stores user's answer to preference question 3
 |... |... |...
+
+
+
+
+**Network Models**
+
+*Login Screen
+ (Read/Get) Query the user object
+ ParseUser.logInInBackground(username, password, new LogInCallback() {
+  public void done(ParseUser user, ParseException e) {
+    if (user != null) {
+      //user is logged in
+      goMainActivity;
+    } else {
+      //Use a parse exception
+      Log.e(TAG, "Login error")
+      return;
+    }
+  }
+});
+
+ (Update) Create user on signup
+ 
+ user.signUpInBackground(new SignUpCallback() {
+  public void done(ParseException e) {
+    if (e == null) {
+      // Sign up succesful
+      goMainActivity;
+    } else {
+      // Sign up didn't succeed. Look at the ParseException
+      Log.e(TAG, "Sign up failed");
+      return;
+    }
+  }
+});
+ 
+*Home Screen
+Read from users database
+(Read/Get) Query users
+
+ParseQuery<ParseUser> query = ParseUser.getQuery();
+query.findInBackground(new FindCallback<ParseUser>() {
+  public void done(List<ParseUser> objects, ParseException e) {
+    if (e == null) {
+        // The query was successful.
+        //show users on screen but not current user
+    } else {
+        // Something went wrong.
+        Log.e(TAG, "Not able to get list of users")
+        return;
+    }
+  }
+});
+
+*Map Screen
+Read/Get from Google Maps API
+
+private MapView mapView;
+ 
+@Override
+protected void onCreate(Bundle savedInstanceState) {
+super.onCreate(savedInstanceState);
+ 
+Mapbox.getInstance(this, getString(R.string.mapbox_access_token));
+ 
+setContentView(R.layout.activity_main);
+ 
+mapView = (MapView) findViewById(R.id.mapView);
+mapView.onCreate(savedInstanceState);
+mapView.getMapAsync(new OnMapReadyCallback() {
+@Override
+public void onMapReady(@NonNull MapboxMap mapboxMap) {
+ 
+	mapboxMap.setStyle(Style.MAPBOX_STREETS, new Style.OnStyleLoaded() {
+	@Override
+	public void onStyleLoaded(@NonNull Style style) {
+ 
+	// Map is set up and the style has loaded. Now you can add data or make other map adjustments
+ 
+ 
+	}
+});
+ 
+}
+});
+}
+
+
+
+https://www.mapbox.com/
+
+https://nordicapis.com/5-powerful-alternatives-to-google-maps-api/
+
+https://cloud.google.com/maps-platform/pricing
+https://www.quora.com/Are-Google-map-APIs-free-for-Android
+
+
+*Chat Screen
+(Get) Use chat API
+https://developers.google.com/hangouts/chat
+
+*Settings Screen
+(Read/Get) Query settings from current user 
+
+*Edit Screen
+(Read/Get) view user profile
+(Update) edit user profile
