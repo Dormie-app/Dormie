@@ -83,3 +83,27 @@ instead of penn and paper, we digitally collaborated and used paint to draw, equ
 
 ### [BONUS] Interactive Prototype
 <img src="dorimemockup.gif">
+
+### Models
+
+User
+
+| Property | Type | Description |
+| -------- | -------- | -------- |
+| email    | String | email Id of the user(.edu) |
+| ObjectID | String | Unique ID for the field |
+| fullname | String	| Full name of the user |
+| password | String	| Password of the user |
+| displayPic|File   | Profile pic (Image) |
+| aboutMe | String | About me displayed on profile
+| Preferences| Pointer | Points to User's row in preference database
+
+
+Preferences
+| Property | Type | Description |
+| -------- | -------- | -------- |
+ObjectID | String |  Unique ID for the field 
+| q1 | int | Stores user's answer to preference question 1
+| q2 | int | Stores user's answer to preference question 2
+| q3 | int | Stores user's answer to preference question 3
+|... |... |...
