@@ -32,8 +32,6 @@ An app that lets users find roommates based on compatibility on a college campus
 * User can delete their account
 
 
-
-
 **Optional Nice-to-have Stories**
 
 * User can use chat to talk to other users
