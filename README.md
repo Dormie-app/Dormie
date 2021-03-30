@@ -81,6 +81,9 @@ instead of penn and paper, we digitally collaborated and used paint to draw, equ
 ### [BONUS] Digital Wireframes & Mockups
 <img src="https://github.com/Dormify/Dormie/blob/main/figma%20dormie%20mockup.png">
 
+#### Updated Wireframe 
+<img src="dormie-plan-march30.png">
+
 ### [BONUS] Interactive Prototype
 <img src="dorimemockup.gif">
 
