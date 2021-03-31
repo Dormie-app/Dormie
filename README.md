@@ -20,23 +20,23 @@ An app that lets users find roommates based on compatibility on a college campus
 ### 1. User Stories (Required and Optional)
 
 **Required Must-have Stories**
-
-* User can log in or sign up with username and password and log out
-* User can view a map of Penn State
-* User can see a list of potential roommates (other users)
-* Profile pages for each user
-* User can view their profile and edit it
-* User can access/retake the registration compatibility quiz
-* User can use and view bottom navigation bar
-* Users can make a request to connect
-* User can delete their account
+- [x] Use parse to store user data
+- [ ] User can log in or sign up with username and password and log out
+- [ ] User can view a map of Penn State
+- [ ] User can see a list of potential roommates (other users)
+- [ ] Profile pages for each user
+- [ ] User can view their profile and edit it
+- [ ] User can access/retake the registration compatibility quiz
+- [ ] User can use and view bottom navigation bar
+- [ ] Users can make a request to connect
+- [ ] User can delete their account
 
 
 **Optional Nice-to-have Stories**
 
-* User can use chat to talk to other users
-* User can send a notification to another user
-* User can get jpg from their phone to upload as profile picture or upload directly from camera
+- [ ] User can use chat to talk to other users
+- [ ] User can send a notification to another user
+- [ ] User can get jpg from their phone to upload as profile picture or upload directly from camera
 
 ### 2. Screen Archetypes
 
