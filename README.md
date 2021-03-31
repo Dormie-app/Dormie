@@ -223,8 +223,8 @@ https://developers.google.com/hangouts/chat
 (Read/Get) view user profile
 (Update) edit user profile
 
-###Progress 
+Progress 
 
-###Parse gif
+Parse gif
 
-<img src="https://i.imgur.com/G2p5C1d.gif" width =300><br>
+<img src="https://i.imgur.com/G2p5C1d.gif" width =350 height =300><br>
