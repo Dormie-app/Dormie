@@ -225,6 +225,6 @@ https://developers.google.com/hangouts/chat
 
 Progress 
 
-Parse gif
+*Parse gif
 
-<img src="https://i.imgur.com/G2p5C1d.gif" width =350 height =300><br>
+<img src="https://i.imgur.com/G2p5C1d.gif" width =400 height =300><br>
