@@ -222,3 +222,8 @@ https://developers.google.com/hangouts/chat
 *Edit Screen
 (Read/Get) view user profile
 (Update) edit user profile
+
+##Progress 
+
+###Parse gif
+<img src="https://i.imgur.com/G2p5C1d.gif" width =200><br>
