@@ -22,7 +22,7 @@ An app that lets users find roommates based on compatibility on a college campus
 **Required Must-have Stories**
 - [x] Use parse to store user data
 - [ ] User can log in or sign up with username and password and log out
-- [ ] User can view a map of Penn State
+- [x] User can view a map of Penn State
 - [ ] User can see a list of potential roommates (other users)
 - [ ] Profile pages for each user
 - [ ] User can view their profile and edit it
