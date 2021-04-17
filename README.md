@@ -25,11 +25,10 @@ An app that lets users find roommates based on compatibility on a college campus
 - [x] User can view a map of Penn State
 - [ ] User can see a list of potential roommates (other users)
 - [ ] Profile pages for each user
-- [ ] User can view their profile and edit it
+- [x] User can view their profile and edit it
 - [ ] User can access/retake the registration compatibility quiz
-- [ ] User can use and view bottom navigation bar
-- [ ] Users can make a request to connect
-- [ ] User can delete their account
+- [x] User can use and view bottom navigation bar
+- [x] User can delete their account
 
 
 **Optional Nice-to-have Stories**
@@ -37,6 +36,7 @@ An app that lets users find roommates based on compatibility on a college campus
 - [ ] User can use chat to talk to other users
 - [ ] User can send a notification to another user
 - [ ] User can get jpg from their phone to upload as profile picture or upload directly from camera
+- [ ] Users can make a request to connect
 
 ### 2. Screen Archetypes
 
