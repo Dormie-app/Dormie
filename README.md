@@ -228,6 +228,3 @@ Progress
 
 <img src ="https://i.imgur.com/YmywVOk.gif" width = 400 height =500>  <img src ="https://i.imgur.com/Uw3KTV8.gif" width = 400 height = 500> <br>
 
-Final App
-
-<img src = 'https://i.imgur.com/or2e6us.mp4'> <br>
